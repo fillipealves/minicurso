@@ -1,0 +1,17 @@
+<ion-view view-title="{{'Avaliacao' | translate}}"> 
+  <ion-content data-content="true" data-replace="false">
+    <h4 xattr-position="text-left" class="component-holder text-left" data-component="crn-label" id="crn-label77531">{{'Nota' | translate}}</h4>
+    <div cronapp-stars="" class="cronapp-star component-holder" ng-model="vars.nota" data-component="crn-evaluation" id="crn-evaluation-247121">
+      <i style="font-size:200%" class="component-holder ion ion-android-star-outline"></i>
+    </div>
+    <h4 xattr-position="text-left" class="component-holder text-left" data-component="crn-label" id="crn-label-635138">{{'Comentario' | translate}}</h4>
+    <div class="component-holder ng-binding ng-scope" data-component="crn-textarea" id="crn-textarea-306144">
+      <div class="">
+        <textarea id="textArea6901" ng-model="vars.comentario" maxlength="300" style="resize:none;" resize="none" class="col item item-input" rows="5" placeholder="{{'Comentario' | translate}}"></textarea>
+      </div>
+    </div>
+    <button class="button component-holder button-block button-balanced" type="submit" ng-click="blockly.js.blockly.BuscarAvaliacao.avaliar()" data-component="crn-button" id="crn-button-622604" xattr-type="" xattr-fullsize="button-block" xattr-theme="button-balanced"><i class="ion ion-checkmark"></i> <span>{{'Avaliar' | translate}}</span></button>
+    <a href="#/app/logged/home"></a>
+  
+  </ion-content> 
+</ion-view>

@@ -1,0 +1,1 @@
+window.blockly = window.blockly || {};window.blockly.js = window.blockly.js || {};window.blockly.js.blockly = window.blockly.js.blockly || {};document.write("<script src='js/blockly/buscarAvaliacao.blockly.js?1542807706000'></script>");
